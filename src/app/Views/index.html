@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HRnavi Recruitment</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../../assets/css/vendor/bootstrap.min.css">
+    <!-- font icon -->
+    <link rel="stylesheet" href="../../assets/css/vendor/line-awesome.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="../../assets/css/vendor/animate.css">
+    <!-- Main style -->
+        <link rel="stylesheet" href="../../assets/css/main.css?20181022">
+
+</head>
+<body>
+
+    <!-- NavBar -->
+    <nav id="nav-trans" class="navbar my-nav navbar-expand-md fixed-top wow fadeIn p-md-0" data-wow-delay="3s" data-wow-duration="3s">
+        <a class="navbar-brand ml-md-5 ml-2 mt-2 mt-md-0" href="#">
+            <picture>
+                <img 
+                  srcset="../../assets/img/logo_white@1x.png 1x,
+                  ../../assets/img/logo_white@2x.png 2x,
+                  ../../assets/img/logo_white@3x.png 3x,
+                  ../../assets/img/logo_white@4x.png 4x"
+                  src="../../assets/img/logo_white@1x.png" 
+                  alt="HRnavi JSC">
+            </picture>
+        </a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="la la-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="">
+            <ul class="navbar-nav ml-auto d-flex flex-wrap">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">#About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#vision">#Vision</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#careerpath" class="nav-link">#Career Path</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recruit" class="nav-link">#Recruitment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#client" class="nav-link">#Clients</a>
+                </li>
+            </ul>
+            <a href="#recruit" class="btn btn-primary btn-nav"><span>Join us</span></a>
+        </div>
+    </nav>
+
+    <nav id="nav-white" class="navbar my-nav navbar-expand-md fixed-top p-md-0" data-wow-delay="3s" data-wow-duration="3s">
+            <a class="navbar-brand ml-md-5 my-3 mt-md-0" href="index.html">
+                <picture>
+                    <img 
+                      srcset="../../assets/img/logo@1x.png 1x,
+                      ../../assets/img/logo@2x.png 2x,
+                      ../../assets/img/logo@3x.png 3x,
+                      ../../assets/img/logo@4x.png 4x"
+                      src="../../assets/img/logo_white@1x.png" 
+                      alt="HRnavi JSC">
+                </picture>
+            </a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="la la-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto d-flex flex-wrap">
+                    <li class="nav-item active">
+                        <a href="#top" class="nav-link">#Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" class="nav-link" href="#about">#About Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#vision">#Vision</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#careerpath" class="nav-link">#Career Path</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#recruit" class="nav-link">#Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#people" class="nav-link">#People</a>
+                    </li>
+                </ul>
+                <a href="#recruit" class="btn btn-primary btn-nav" data-toggle="modal" data-target="#applyForm"><span>Join us</span></a>
+            </div>
+        </nav>
+    <!-- End navbar 
+    
+    <!-- Home Top -->
+    <section id="top">
+        <div class="top__wrapper container-fluid p-0 text-white">
+            <div class="top__wrapper__inner">
+                <div class="top__bg-color top__bg-image w-100 h-100">
+                    <div class="top__bg-image__inner w-100 h-100"></div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center w-100 h-100 pt-5">
+                    <div class="w-100 top__inner text-center d-md-flex flex-column align-items-center">
+                        <div class="top__title d-block d-md-flex justify-content-md-center mt-4 mt-md-0 pt-5 ">
+                            <div class="top__title-text1 mr-md-5 mt-5 mt-md-0">Small Touch for </div>
+                            <div class="top__title-text2">Big Change</div>
+                        </div>
+                        <div class="w-100 row no-gutters top__intro mt-3 mt-md-4 d-md-flex justify-content-center align-items-center pb-5">
+                            <div class="col-12 col-md-6">
+                                <div class="top__intro-text">
+                                    <!-- <p class="d-md-none">Hãy biết những gì bạn mong muốn</p> -->
+                                    <p class="mx-4 mx-md-0">
+                                        Với những kỹ năng được đào tạo tại HRnavi, bạn sẽ có rất nhiều lựa chọn. <br>
+                                        Dưới đây là 3 hướng phát triển tiêu biểu nhất.
+                                    </p>
+                                </div>
+                                <div class="row text-center mt-5 top__people-text">
+                                    <div class="col-4">
+                                        <a href="linh.html">
+                                            <h3 class="display-1">01</h3>
+                                            <p>
+                                                <span>Recruitment Consultant</span>
+                                                <br>
+                                                <small>(Chuyên viên tư vấn)</small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="nhung.html">
+                                            <h3 class="display-1">02</h3>
+                                            <p>
+                                                <span>High Performance Staff</span>
+                                                <br>
+                                                <small>(Nhân viên có năng lực cao)</small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="kieu.html">
+                                            <h3 class="display-1">03</h3>
+                                            <p>
+                                                <span>Business Owner</span>
+                                                <br>
+                                                <small>(Chủ doanh nghiệp)</small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EndHome Top -->
+    
+    <!-- about -->
+    <section id="about" class="pt-5 section-bg-lite">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-5">
+                    <h2 class="display-2 mt-4">Sứ mệnh của HRnavi</h2>
+                    <p class="mt-5">Sứ mạng của HRnavi là <strong>"góp sức vào sự thay đổi"</strong> đặc biệt trên phương diện công việc.</p>
+                    <p>HRnavi là từ ghép giữa <strong class="text-orange">Human Resource</strong> (nguồn lực nhân sự) và <strong class="text-orange">Navigation</strong> (định hướng). HRnavi mang ý nghĩa chúng tôi muốn góp sức mình định hướng nguồn lực nhân sự để nó chuẩn hơn, đem lại nhiều thành quả cho xã hội hơn. </p>
+                    <a href="about.html" class="btn btn-primary btn-large mt-4">Xem thêm về HRnavi</a>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid" src="../../assets/img/people/pp1/mrPeter.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End about -->
+
+    <section id="careerpath" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="display-2">Career Path at HRnavi</h2>
+                </div>
+                <div class="col-12 text-center my-5 d-none d-md-block">
+                    <div class="row career-md-steps no-gutters">
+                        <div class="col-md-4 career-md-step align-self-end d-flex align-items-center justify-content-center">Assistant</div>
+                        <div class="col-md-4 career-md-step align-self-center d-flex align-items-center justify-content-center">Junior Consultant</div>
+                        <div class="col-md-4 career-md-step align-seft-start d-flex align-items-center justify-content-center">Consultant</div>
+                    </div>
+                </div>
+                <div class="col-12 my-5 d-flex d-md-none">
+                    <div class="row career-steps no-gutters d-md-none mx-auto">
+                        <div class="col-md-12 career-step d-flex align-items-start justify-content-center">Consultant</div>
+                        <div class="col-md-12 career-step d-flex align-items-start justify-content-center">Junior Consultant</div>
+                        <div class="col-md-12 career-step d-flex align-items-start justify-content-center">Assistant</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="visual mb-md-5">
+                        <div class="visual-top">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="visual-img">
+                                        <img src="../../assets/img/01_crp.jpg" class="img-fluid" alt="Assistant">
+                                    </div>
+                                    <div class="visual-bg d-none d-md-block"></div>
+                                    <div class="visual-link row d-none d-md-block">
+                                        <div class="col-md-4 offset-md-3 text-center">
+                                            <div class="mt-5">
+                                                <a class="btn btn-primary btn-large" href="assistant.html">Tìm hiểu thêm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="visual-info mt-md-5 pt-md-5">
+                                        <div class="row">
+                                            <div class="col-12 text-orange text-quest">
+                                                <h3>
+                                                    <!-- <span class="display-2">01.</span> -->
+                                                    <span class="display-2">Assistant</span>
+                                                </h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <!-- <p class="display-5"><strong><u>Vai trò:</u></strong></p> -->
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Hỗ trợ cho Consultant hoàn thành dự án.</p></li>
+                                                    <li><p>Là cầu nối giữa Ứng viên và Consultant</p></li>
+                                                    <li><p>Hỗ trợ phát triển các dịch vụ mới của công ty.</p></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 mt-5">
+                                                <p class="display-5"><strong><u>Chắc chắn bạn sẽ thành thạo:</u></strong></p>
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Kỹ năng làm việc cơ bản của Nhật (Hourensou, Omotenashi)</p></li>
+                                                    <li><p>Kỹ năng giao tiếp, lập kế hoạch, quản lý công việc</p></li>
+                                                    <li><p>Thao tác và sử dụng hệ thống dữ liệu hiệu quả.</p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-block d-md-none text-center">
+                                <div class="col-12">
+                                    <div class="mt-5">
+                                        <a class="btn btn-primary btn-large" href="assistant.html">Tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="visual mb-5">
+                        <div class="visual-top">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="visual-img">
+                                        <img src="../../assets/img/02_crp.jpg" class="img-fluid" alt="Junior Consultant">
+                                    </div>
+                                    <div class="visual-bg d-none d-md-block"></div>
+                                    <div class="visual-link row d-none d-md-block">
+                                        <div class="col-md-4 offset-md-3 text-center">
+                                            <div class="mt-5">
+                                                <a class="btn btn-primary btn-large" href="min.html">Tìm hiểu thêm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="visual-info mt-md-5 pt-md-">
+                                        <div class="row">
+                                            <div class="col-12 text-orange text-quest">
+                                                <h3>
+                                                    <!-- <span class="display-2">02.</span> -->
+                                                    <span class="display-2">Junior Consultant</span>
+                                                </h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <!-- <p class="display-5"><strong><u>Vai trò:</u></strong></p> -->
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Tư vấn cho khách hàng về các dịch vụ của công ty</p></li>
+                                                    <li><p>Là cầu nối giữa khách hàng và ứng viên</p></li>
+                                                    <li><p>Hoàn thành các dự án với chất lượng tốt nhất</p></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 mt-5">
+                                                <p class="display-5"><strong><u>Chắc chắn bạn sẽ thành thạo:</u></strong></p>
+
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Những kỹ năng chuyên sâu về phỏng vấn, tuyển dụng</p></li>
+                                                    <li><p>Kỹ năng thuyết trình có logic, trình tự</p></li>
+                                                    <li><p>Kỹ năng đàm phán hiệu quả</p></li>
+                                                    <li><p>Kỹ năng thiết lập và duy trì mối quan hệ</p></li>
+                                                    <li><p>Hơn hết là kỹ năng quản lý dự án đạt kết quả</p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-block d-md-none text-center">
+                                <div class="col-12">
+                                    <div class="mt-5">
+                                        <a class="btn btn-primary btn-large" href="min.html">Tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="visual mb-5">
+                        <div class="visual-top">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="visual-img">
+                                        <img src="../../assets/img/03_crp.jpg" class="img-fluid" alt="Senior Consultant">
+                                    </div>
+                                    <div class="visual-bg d-none d-md-block"></div>
+                                    <div class="visual-link row d-none d-md-block">
+                                        <div class="col-md-4 offset-md-3 text-center">
+                                            <div class="mt-5">
+                                                <a class="btn btn-primary btn-large" href="linh.html">Tìm hiểu thêm</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="visual-info mt-md-5 pt-md-">
+                                        <div class="row">
+                                            <div class="col-12 text-orange text-quest">
+                                                <h3>
+                                                    <!-- <span class="display-2">03.</span> -->
+                                                    <span class="display-2">Consultant</span>
+                                                </h3>
+                                            </div>
+                                            <div class="col-12">
+                                                <!-- <p class="display-5"><strong><u>Vai trò:</u></strong></p> -->
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Tìm kiếm khách hàng, phát triển các dự án mới.</p></li>
+                                                    <li><p>Phân tích và nhận biết nhu cầu khách hàng.</p></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 mt-5">
+                                                <p class="display-5"><strong><u>Chắc chắn bạn sẽ thành thạo:</u></strong></p>
+                                                
+                                                <ul class="list-unstyled list-circle">
+                                                    <li><p>Kỹ năng sale và marketing chuyên sâu.</p></li>
+                                                    <li><p>Có hiểu biết và kiến thức đa dạng nhiều lĩnh vực ngành nghề</p></li>
+                                                    <li><p>Nhạy bén trong việc nắm bắt nhu cầu và nhu cầu ẩn của khách hàng</p></li>
+                                                    <li><p>Khả năng tư vấn, hỗ trợ khách hàng gỡ bỏ khó khăn nhân sự</p></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-block d-md-none text-center">
+                                <div class="col-12">
+                                    <div class="mt-5">
+                                        <a class="btn btn-primary btn-large" href="linh.html">Tìm hiểu thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="recruit" class="py-5 section-bg-grey">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-12 ">
+                    <div class="sub-tit text-center">
+                        <div>Sau tất cả ĐỪNG NÊN CHỌN HRnavi, NẾU…</div>
+                    </div>
+                    <div class="row align-items-stretch">
+                        <div class="col-md-6 d-flex align-items-stretch mt-5">
+                            <div class="row justify-content-center align-items-center align-items-stretch">
+                                <div class="col-md-3 text-center d-flex align-items-stretch justify-content-center">
+                                    <div class="number-tit d-flex align-items-center justify-content-center">
+                                        <img src="../../assets/img/svg/01.svg" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 py-2 d-flex align-items-center">
+                                    <div>
+                                        <p class="h2"><strong>Ngại cực</strong></p>
+                                        <p>Với công việc này, bạn sẽ bận rộn quanh năm bởi vô số nhiệm vụ cần phục vụ cho nhu cầu tuyển dụng của khách hàng. HRnavi luôn cần những người trẻ tràn trề năng lượng và không ngại thử thách trên "đường chạy".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-stretch mt-5">
+                            <div class="row justify-content-center align-items-center align-items-stretch">
+                                <div class="col-md-3 text-center d-flex align-items-stretch justify-content-center">
+                                    <div class="number-tit d-flex align-items-center justify-content-center">
+                                        <img src="../../assets/img/svg/05.svg" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 py-2 d-flex align-items-center">
+                                    <div>
+                                        <p class="h2"><strong>Ngại mở rộng mối quan hệ</strong></p>
+                                        <p>Đừng nên chọn công việc này nếu bạn ngại có thêm nhiều mối quan hệ. Vì kỹ năng giao tiếp và xây dựng mối quan hệ là một trong những tiêu chí hàng đầu với nghề Headhunter</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-stretch">
+                        <div class="col-md-6 d-flex align-items-stretch mt-5">
+                            <div class="row justify-content-center align-items-center align-items-stretch">
+                                <div class="col-md-3 text-center d-flex align-items-stretch justify-content-center">
+                                    <div class="number-tit d-flex align-items-center justify-content-center">
+                                        <img src="../../assets/img/svg/02.svg" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 py-2 d-flex align-items-center">
+                                    <div>
+                                        <p class="h2"><strong>Ngại deadline</strong></p>
+                                        <p>Quản lý thời gian để hoàn thành deadline sẽ phản ánh năng lực của bạn. Sao phải ngại?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-stretch mt-5">
+                            <div class="row justify-content-center align-items-center align-items-stretch">
+                                <div class="col-md-3 text-center d-flex align-items-stretch justify-content-center">
+                                    <div class="number-tit d-flex align-items-center justify-content-center">
+                                        <img src="../../assets/img/svg/03.svg" />
+                                    </div>
+                                </div>
+                                <div class="col-md-9 py-2 d-flex align-items-center">
+                                    <div>
+                                        <p class="h2"><strong>Ngại bơi</strong></p>
+                                        <p>HRnavi luôn luôn khuyến khích các bạn "tự bơi", học hỏi từ quá trình làm việc. Dĩ nhiên là sẽ có "phao" từ "đội cứu hộ Senior".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <h2 class="display-2">HRnavi Tuyển dụng</h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="sub-tit text-center">
+                        <div>Assistant</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="h3 mt-5 mb-3 sub-title">Bạn sẽ làm gì?</div>
+                    <p>Bạn là trung gian giữa <strong>ứng viên</strong> và <strong>người quản lý dự án</strong>, bạn cần:</p>
+                    <ul class="detail-list mt-4 list-unstyled">
+                        <li><p>Tiếp xúc, tư vấn, định hướng cho các bạn ứng viên nhằm giúp các bạn tìm được công việc trong mơ.</p></li>
+                        <li><p>Hỗ trợ người quản lý dự án tìm được Mr/Ms Right cho vị trí mà khách hàng tìm kiếm.</p></li>   
+                    </ul>
+                    <div class="h3 mt-5 mb-3 sub-title">Chúng tôi cần ai?</div>
+                    <ul class="detail-list mt-4 list-unstyled">
+                        <li><p>Tự tin mình giỏi và luôn tin mình làm được.</p></li>
+                        <li><p>Ngoại ngữ giao tiếp tốt (Tiếng Anh / Tiếng Nhật)</p></li>
+                        <li><p>Ngoại hình dễ nhìn, giao tiếp hoạt bát</p></li>
+                        <li><p>Tư duy logic, nhạy bén</p></li>
+                        <li><p>Đặc biệt yêu thích với ngành nhân sự</p></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="col-12 mt-5">
+                        <div class="detail-card py-4">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="card-icon"><i class="la la-3x la-money"></i></div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="h4">Mức lương</div>
+                                    <span>Lên đến 600$</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="detail-card py-4">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="card-icon"><i class="la la-3x la-clock-o"></i></div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="h4">Thời gian làm việc</div>
+                                    <span>Thứ 2 - Thứ 6</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="detail-card py-4">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="card-icon"><i class="la la-3x la-map-marker"></i></div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="h4">Địa điểm làm việc</div>
+                                    <span>Hồ Chí Minh / Hà Nội</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        
+                    <a href="#recuit"  data-toggle="modal" data-target="#applyForm" class="btn btn-primary btn-large my-5">Ứng tuyển ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section id="benefit" class="py-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-12">
+                    <div class="sub-tit text-center">
+                        <div>Dưới đây là một số điều thú vị khiến nhân viên của chúng tôi hào hứng <br> khi làm việc tại HRnavi</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/07.svg" />
+                                <div>
+                                    <span>Opportunity to challenge yourself</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Cơ hội cho bạn thử thách bản thân với những dự án mới</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/08.svg" />
+                                <div>
+                                    <span>A competitive salary</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Mức lương cạnh tranh cùng KPIs và Bonus</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/09.svg" />
+                                <div>
+                                    <span>Continued learning</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Văn hóa đọc sách cùng định hướng phát triển riêng cho mỗi nhân viên</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4 reserve">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/10.svg" />
+                                <div>
+                                    <span>Annual company/group trip</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Du lịch thường niên cùng công ty</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4 reserve">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/11.svg" />
+                                <div>
+                                    <span>Team building events</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Các chương trình team building mỗi tháng, mỗi quý là cơ hội để bạn gắn kết với mọi người</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center mb-5">
+                            <div class="card-be px-5 py-4 reserve">
+                                <img class="card-be-img my-3" src="../../assets/img/svg/12.svg" />
+                                <div>
+                                    <span>Love from the team</span>
+                                </div>
+                                <div class="card-be-hover p-3 d-flex justify-content-center align-items-center">
+                                    <div>Chúng tôi luôn sẵn sàng giúp đỡ và sẻ chia những khó khăn với bạn</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Benefits -->
+
+    <!-- People -->
+    <section id="people" class="py-5 section-bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 my-5">
+                    <h2 class="display-2">People</h2>
+                </div>
+            </div>
+            <div class="row">
+                <a class="col-md-4 " href="assistant.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/p1.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                “Small Touch <br> for BIG CHANGE”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Hà My, Hoài Thương, Thu Hoa</p>
+                            <p class="h3 pp-job-title">Assistant Team</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-4 " href="min.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/m01.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                “Bạn không thể thành công nếu thiếu kỷ luật”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Nguyễn Huyền My</p>
+                            <p class="h3 pp-job-title">Junior Consultant</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-4" href="linh.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/p2.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                “Để có thể thành công,<br> bạn buộc phải tin rằng<br/> bạn có thể”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Nguyễn Thị Mỹ Linh</p>
+                            <p class="h3 pp-job-title">Consultant</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-4 " href="nhung.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/n01.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                    “Làm tuyển dụng <br>  cũng như làm nghệ thuật”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Nguyễn Thị Phương Nhung</p>
+                            <p class="h3 pp-job-title">Business Development Manager</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-4 " href="kieu.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/p4.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                “Vượt qua được thử thách <br class="d-none d-md-block"> ở HRnavi thì đi đâu cũng không sợ ‘chết’”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Lê Loan Kiều</p>
+                            <p class="h3 pp-job-title">ISE Founder</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col-md-4 " href="peter.html">
+                    <div class="pp_pre">
+                        <div class="pp_pre_img">
+                            <img src="../../assets/img/people/p6.jpg" alt="" class="img-fluid">
+                            <div class="h3">
+                                    “Small Touch <br> for BIG CHANGE”
+                            </div>
+                        </div>
+                        <div class="pp_pre_info p-4">
+                            <p class="h2 pp-name">Nguyễn Đình Phúc</p>
+                            <p class="h3 pp-job-title">HRnavi CEO</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- End People -->
+
+    <!-- Clients -->
+    <section id="client" class="py-5">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-md-12 my-5">
+                    <h2 class="display-2">HRnavi đã được tin tưởng bởi</h2>
+                </div>
+            </div>
+            <div class="row mt-5 pt-3 align-items-center text-center">
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/01.png" alt="BROTHER INDUSTRIES (VIETNAM) LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/02.png" alt="TIGER VIETNAM CO., LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/03.png" alt="TOSHIBA MACHINE (VIETNAM) CO., LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/04.png" alt="SOFTBANK TELECOM VIETNAM CO., LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/05.png" alt="TOTO VIETNAM CO., LTD " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/06.png" alt="ITOCHU VIETNAM COMPANY LIMITED" />
+                </div>
+            </div>
+            <div class="row mt-5 pt-3 align-items-cente text-center">
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/07.png" alt="HONDA VIETNAM POWER PRODUCTS CO., LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/08.png" alt="I-GLOCAL CO., LTD " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/09.png" alt="BECAMEX TOKYU CO.,LTD " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/10.png" alt="MITSUBISHI ELECTRIC VIETNAM CO., LTD. " />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/11.png" alt="FPT SOFTWARE CO., LTD." />
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 my-4 px-4 px-sm-4 px-lg-5">
+                    <img class="img-fluid client-logo" src="../../assets/img/Clients/12.png" alt="NGK SPARK PLUGS (THAILAND) CO., LTD. " />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EndClients -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="row">
+                </div>
+                <div class="row pb-5">
+                    <div class="col-md-12 py-5 order-2 order-md-1">
+                        <picture>
+                            <source srcset="../../assets/imgg/logo_white@1x.png 1x,
+                            ../../assets/img/logo_white@2x.png 1.25x,
+                            ../../assets/img/logo_white@2x.png 2x,
+                            ../../assets/img/logo_white@3x.png 3x,
+                            ../../assets/img/logo_white@4x.png 4x"
+                                    type="image/webp" >
+                            <img
+                                srcset="../../assets/img/logo_white@1x.png 1x,
+                                ../../assets/img/logo_white@2x.png 1.25x,
+                                ../../assets/img/logo_white@2x.png 2x,
+                                ../../assets/img/logo_white@3x.png 3x,
+                                ../../assets/img/logo_white@4x.png 4x"
+                                src="../../assets/img/logo_white@1x.png"
+                                alt="HRnavi Blogs">
+                        </picture>
+                    </div>
+                    <div class="col-md-6 order-3 order-md-2">
+    
+                        <div class="h1"><strong>HRnavi Joint Stock Company</strong></div>
+                        <p>
+                            180-192 Nguyễn Công Trứ, P. Nguyễn Thái Bình, Q.1, TP. Hồ Chí Minh
+                            <br/>
+                            <strong>Email:</strong> <a href="mailto:info@hrnavi.com">info@HRnavi.com</a>
+                        </p>
+                        <p class="">
+                            <strong>Hotline: </strong>
+                            <strong class="text-orange h1"><strong>090-1800-365</strong></strong>
+                        </p>
+                        <p class="social_icon mt-4 mb-5">
+                            <a target="_blank" href="https://www.facebook.com/HRnavi.channel/?ti=as"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/hrnavi-by-iglocal-resource"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-3 pt-5 pt-md-0 service">
+                        <h2 class="story-head"><strong class="text-uppercase">Dịch vụ</strong></h2>
+                        <div class="row mt-5 pt-4">
+                            <div class="col-md-6 mb-4">
+                                <h3><strong><a href="http://hrnavi.com" target="_blank">HRnavi</a></strong></h3>
+                                <p>Dịch vụ tư vấn, tuyển dụng nhân sự chuyên nghiệp</p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h3><strong><a href="http://hci-as.hrnavi.com/" target="_blank">HCi-AS Test</a></strong></h3>
+                                <p>Bài kiểm tra tính cách ứng viên hàng đầu Việt Nam</p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h3><strong><a href="http://staffing.hrnavi.com/" target="_blank">Staffing Service</a></strong></h3>
+                                <p>Dịch vụ nhân sự thuê ngoài cho các doanh nghiệp</p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <h3><strong><a href="https://nhansunhamay.com/" target="_blank">Nhân Sự Nhà Máy</a></strong></h3>
+                                <p>Trang tuyển dụng ngành sản xuất đầu tiên và duy nhất tại Việt Nam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 py-5 copyright">
+                        <em>Copyright © 2018 HRNAVI JOINT STOCK COMPANY All rights reserved.</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Modal apply -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="applyForm" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modelTitleId">Ứng tuyển</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-style" id="apply-form">
+                        <div class="form-group col-12">
+                            <label for="inputName">Họ Tên</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Họ Tên">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                        <div class="form-group col-12">
+                            <label for="inputPhone">Số Điện Thoại</label>
+                            <input type="text" class="form-control" id="inputPhone" placeholder="Số Điện Thoại">
+                        </div>
+                        <div class="form-group col-12">
+                            <label>Tiếng Nhật</label>
+                            <select class="form-control">
+                                <option>-Trình Độ</option>
+                                <option value="Native">Native</option>
+                                <option value="N1">N1 hoặc tương đương</option>
+                                <option value="N2">N2 hoặc tương đương</option>
+                                <option value="N3">N3 hoặc tương đương</option>
+                                <option value="N4">N4 hoặc tương đương</option>
+                                <option value="N5">N5 hoặc tương đương</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12">
+                            <label>Tiếng Anh</label>
+                            <select class="form-control">
+                                <option>-Trình Độ</option>
+                                <option value="Native">Native</option>
+                                <option value="business">Business</option>
+                                <option value="workable">Workable</option>
+                                <option value="communication">Communication</option>
+                                <option value="limited">Limited</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal apply -->
+
+        
+    <!-- jquery / vendor js -->
+    <script src="../../assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="../../assets/js/vendor/jquery.scrollTo.js"></script>
+    <script src="../../assets/js/vendor/bootstrap4/popper.min.js"></script>
+    <script src="../../assets/js/vendor/bootstrap4/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/jquery.scrollTo.js"></script>
+    <!-- <script src="../../assets/js/vendor/wow.js"></script> -->
+    <script>
+        // new WOW().init();
+    </script>
+    <!-- <script src="../../assets/js/vendor/image-set-polyfill.js"></script> -->
+    <!-- main js -->
+    <!-- <script src="../../assets/js/career.js"></script> -->
+    <!-- <script src="../../assets/js/main.js"></script> -->
+</body>
+</html>
