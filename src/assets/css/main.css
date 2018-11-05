@@ -226,6 +226,9 @@ a:hover {
 .section-bg-white {
   background: white;
 }
+.section-bg-orange {
+  background: #ff5000;
+}
 .section-title {
   font-weight: 400;
   text-transform: uppercase;
@@ -868,14 +871,6 @@ footer a, footer a:hover, footer a:focus, footer a:active {
 #top-about {
   margin-top: 7rem;
 }
-.modal.show .modal-dialog-centered {
-  min-height: auto!important;
-  transform:  translate(0,50%);
-  -webkit-transform:  translate(0,50%);
-  -moz-transform:  translate(0,50%);
-  -ms-transform:  translate(0,50%);
-  -o-transform:  translate(0,50%);
-}
 
 .card-be {
   background: #f46b45;  /* fallback for old browsers */
@@ -989,9 +984,6 @@ img.client-logo:hover {
   -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
   filter: grayscale(0);
   opacity: 1;
-}
-.modal-dialog-centered {
-  min-height: calc(100% - (1.75rem * 2));
 }
 
 .box_people-career .h2 {
