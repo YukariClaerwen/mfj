@@ -1090,5 +1090,17 @@
     <!-- main js -->
     <!-- <script src="../../assets/js/career.js"></script> -->
     <!-- <script src="../../assets/js/main.js"></script> -->
+    <script>
+        $(document).ready(function(){
+            var win_w = $(window).width();
+            $('.nav-item').each(function(){
+                $(this).click(function(){
+                    if(win_w < 768) {
+                        $('.navbar-toggler').trigger('click');
+                    }    
+                });
+            })
+        });
+    </script>
 </body>
 </html>
