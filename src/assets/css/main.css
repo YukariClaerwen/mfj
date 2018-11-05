@@ -1255,6 +1255,32 @@ p.h2 {
 .footer .sub-links a, .footer .sub-links a:hover, .footer .sub-links a:focus, .footer .sub-links a:active {
   color: white;
 }
+
+
+.icon-figure {
+  font-size: 3rem;
+  color: silver;
+}
+.icon-figure i {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+.figures .h3 {
+  font-size: 4rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width:992px) {
+  .icon-figure {
+    font-size: 7rem;
+    color: silver;
+  }
+  .figures .h3 {
+    font-size: 7rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+}
 @keyframes moveIn1 {
   0% {
     color: black;
