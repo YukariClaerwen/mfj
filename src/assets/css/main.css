@@ -414,7 +414,7 @@ a.top__intro-link:hover {
   position: relative;
   background-color: #fff;
   box-shadow: 0 0 24px rgba(0,0,0,.4);
-  width: 90%;
+  /* width: 90%; */
   padding: 20px;
   z-index: 3;
 }
