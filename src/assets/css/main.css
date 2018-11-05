@@ -837,7 +837,6 @@ footer a, footer a:hover, footer a:focus, footer a:active {
 /* modal box content */
 .box_head {
   background: #f6f6f6;
-  height: 30rem;
   overflow: hidden;
 }
 .box_head .box_title {
@@ -848,7 +847,7 @@ footer a, footer a:hover, footer a:focus, footer a:active {
   font-weight: 200;
   line-height: 180%;
   font-style: italic;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
   font-family: 'Kanit', Arial, Helvetica, sans-serif
 }
 .box_img {
@@ -868,6 +867,14 @@ footer a, footer a:hover, footer a:focus, footer a:active {
 }
 #top-about {
   margin-top: 7rem;
+}
+.modal.show .modal-dialog-centered {
+  min-height: auto!important;
+  transform:  translate(0,50%);
+  -webkit-transform:  translate(0,50%);
+  -moz-transform:  translate(0,50%);
+  -ms-transform:  translate(0,50%);
+  -o-transform:  translate(0,50%);
 }
 
 .card-be {
