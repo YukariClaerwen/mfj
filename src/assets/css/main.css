@@ -286,7 +286,7 @@ a:hover {
 .top__title {
   font-family: "Kanit", sans-serif;
   font-size: 4rem;
-  line-height: 110%;
+  line-height: 100%;
 }
 .top__title-text2 {
   font-weight: 700;
@@ -611,7 +611,7 @@ footer a, footer a:hover, footer a:focus, footer a:active {
     height: 100vh;
   }
   .top__title {
-    line-height: 120%;
+    line-height: 160%;
   }
   .top__people-text h3.display-1 {
     font-size: 6rem;
@@ -1414,7 +1414,7 @@ footer .bg--light {
 @media (min-width: 992px) {
   
   .top__title {
-    /* font-size: 7rem; */
+    font-size: 7rem;
   }
   .top__intro-button {
     font-size: 1.6rem;
