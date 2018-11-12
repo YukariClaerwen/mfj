@@ -161,7 +161,7 @@
                                     <div class="col-12">
                                         <div class="intro-story left-arrow px-3 pt-3 pb-5">
                                             <p>Qua quá trình đào tạo tại HRnavi, bạn sẽ được trang bị những kiến thức và kỹ năng chuyên môn như thuyết trình, kỹ năng bán hàng (B2B sale), đàm phán, thuyết phục khách hàng để sẵn sàng trở thành một chuyên viên tư vấn tuyển dụng (Recruiment Consultant).</p>
-                                            <a href="linh.html" class="btn btn-primary">Tìm hiểu thêm<div class="d-none d-md-inline"> về câu chuyện của Recruitment Consultant</div></a>
+                                            <a href="linh.html" class="btn btn-primary">Tìm hiểu<div class="d-inline d-md-none"> thêm</div><div class="d-none d-md-inline"> câu chuyện về Recruitment Consultant</div></a>
                                         </div>
                                     </div>
                                 </div>
@@ -169,7 +169,7 @@
                                     <div class="col-12">
                                         <div class="intro-story px-3 pt-3 pb-5">
                                             <p>Làm việc tại HRnavi sẽ giúp bạn rèn luyện tính chủ động trong công việc, năng lực phân tích và giải quyết vấn đề đồng thời trau dồi khả năng giao tiếp. Đây là những kỹ năng quan trọng mà bất kỳ doanh nghiệp nào cũng tìm kiếm ở mỗi nhân viên.</p>
-                                            <a href="nhung.html" class="btn btn-primary">Tìm hiểu thêm<div class="d-none d-md-inline"> về câu chuyện của High Performance Staff</div></a>
+                                            <a href="nhung.html" class="btn btn-primary">Tìm hiểu<div class="d-inline d-md-none"> thêm</div><div class="d-none d-md-inline"> câu chuyện về High Performance Staff</div></a>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +177,7 @@
                                     <div class="col-12">
                                         <div class="intro-story right-arrow px-3 pt-3 pb-5">
                                             <p>Tại HRnavi, để thành công bạn cần biết nắm bắt thị trường, tích cực xây dựng mạng lưới quan hệ, rèn luyện tư duy quản trị, không ngừng học hỏi và biết cách chấp nhận thất bại. Đó cũng là những kỹ năng cần thiết để bạn bắt đầu khởi nghiệp.</p>
-                                            <a href="kieu.html" class="btn btn-primary">Tìm hiểu thêm<div class="d-none d-md-inline"> về câu chuyện của Business Owner</div></a>
+                                            <a href="kieu.html" class="btn btn-primary">Tìm hiểu<div class="d-inline d-md-none"> thêm</div><div class="d-none d-md-inline"> câu chuyện về Business Owner</div></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1140,7 +1140,21 @@
         $(document).ready(function(){
             $('.brief_pp').each(function(){
                 $(this).click(function(){
-                    $('#intro-parent').find('.show').collapse('hide')
+                    var target = $(this).data('target');
+                    // console.log(target);
+                    $('#intro-parent').find('.show').collapse('hide');
+                    $(target).on('shown.bs.collapse', function () {
+                        if($(target).hasClass('show')) {
+                            $('#intro-text').collapse('hide');
+                        }
+                    }) 
+                    $(target).on('hidden.bs.collapse', function(){
+                        if(!$(target).hasClass('show')){
+                            if(!$('.collapse').hasClass('show')){
+                                $("#intro-text").collapse('show');
+                            }
+                        }
+                    })
                 }) 
             });
         })
