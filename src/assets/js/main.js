@@ -1,3 +1,14 @@
+$(document).ready(function(){
+    var win_w = $(window).width();
+    $('.togg-item').each(function(){
+        $(this).click(function(){
+            if(win_w < 768) {
+                $('.navbar-toggler').trigger('click');
+            }    
+        });
+    })
+});
+
 // $('#top_step').on('click',function(){
 //     var step = parseFloat($(this).data("step")) + 1;
 //     $('.top_step[data-step='+ step+']').removeClass("d-none");
