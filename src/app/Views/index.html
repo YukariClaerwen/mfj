@@ -58,8 +58,19 @@
         </div>
     </nav> -->
 
+    <div class="container">
+            <div class="row">
+                <a href="" class="intro-banner-vdo-play-btn pinkBg" data-target="#applyForm" data-toggle="modal">
+                    <span class="play-btn-text text-uppercase">Join Us</span>
+                    <span class="ripple pinkBg"></span>
+                    <span class="ripple pinkBg"></span>
+                    <span class="ripple pinkBg"></span>
+                </a>
+            </div>
+        </div>
     <nav id="nav-white" class="navbar my-nav navbar-expand-md fixed-top p-md-0" data-wow-delay="3s" data-wow-duration="3s">
-            <a class="navbar-brand ml-md-5 my-3 mt-md-0 d-flex align-items-end" href="index.html">
+        <div class="container">
+            <a class="navbar-brand my-3 my-md-4 d-flex align-items-end" href="index.html">
                 <picture>
                     <img 
                       srcset="../../assets/img/logo@1x.png 1x,
@@ -97,13 +108,14 @@
                         <a href="#people" class="nav-link">#People</a>
                     </li>
                 </ul>
-                <a class="btn btn-primary btn-nav togg-item" data-toggle="modal" data-target="#applyForm"><span>Join us</span></a>
+                <!-- <a class="btn btn-primary btn-nav togg-item" data-toggle="modal" data-target="#applyForm"><span>Join us</span></a> -->
             </div>
-        </nav>
+        </div>
+    </nav>  
     <!-- End navbar 
     
     <!-- Home Top -->
-    <section id="top">+
+    <section id="top">
         
         <div class="top__wrapper container-fluid p-0 text-white">
             <div class="top__wrapper__inner">
@@ -872,11 +884,11 @@
                                 alt="HRnavi Blogs">
                         </picture>
                     </div>
-                    <div class="col-md-6 order-3 order-md-2">
+                    <div class="col-md-4 order-3 order-md-2">
     
                         <div class="h1"><strong>HRnavi Joint Stock Company</strong></div>
                         <p>
-                            180-192 Nguyễn Công Trứ, P. Nguyễn Thái Bình, Q.1, TP. Hồ Chí Minh
+                            180-192 Nguyễn Công Trứ, <br> P. Nguyễn Thái Bình, Q.1, TP. Hồ Chí Minh
                             <br/>
                             <strong>Email:</strong> <a href="mailto:info@hrnavi.com">info@HRnavi.com</a>
                         </p>
@@ -889,8 +901,20 @@
                             <a target="_blank" href="https://www.linkedin.com/company/hrnavi-by-iglocal-resource"><i class="fab fa-linkedin fa-2x"></i></a>
                         </p>
                     </div>
-                    <div class="col-md-6 order-1 order-md-3 pt-5 pt-md-0 service">
-                        <h2 class="story-head"><strong class="text-uppercase">Dịch vụ</strong></h2>
+                    <div class="col-md-2 pt-5 pt-md-0 order-md-3">
+                        <h2 class="story-head mt-2"><strong class="text-uppercase">Liêt kết</strong></h2>
+                        <div class="mt-5 pt-4">
+                            <ul class="list-unstyled list-circle">
+                                <li><p><a href="#top" class="mr-md-5 mt-2 mt-md-0 text-white">Home</a></p></li>
+                                <li><p><a href="#about" class="mr-md-5 mt-2 mt-md-0 text-white">About Us</a></p></li>
+                                <li><p><a href="#careerpath" class="mr-md-5 mt-2 mt-md-0 text-white">Career Path</a></p></li>
+                                <li><p><a href="#recruit" class="mr-md-5 mt-2 mt-md-0 text-white">Recruitment</a></p></li>
+                                <li><p><a href="#people" class="mr-md-5 mt-2 mt-md-0 text-white">People</a></p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-4 pt-5 pt-md-0 service">
+                        <h2 class="story-head mt-2"><strong class="text-uppercase">Dịch vụ</strong></h2>
                         <div class="row mt-5 pt-4">
                             <div class="col-md-6 mb-4">
                                 <h3><strong><a href="http://hrnavi.com" target="_blank">HRnavi</a></strong></h3>
@@ -917,23 +941,9 @@
             <div class="bg--light">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 py-4 text-uppercase d-flex flex-column flex-md-row justify-content-start align-items-center">
-                            <a href="" class="btn btn-primary mr-md-5" data-toggle="modal" data-target="#applyForm">Join Us</a>
-                            <a href="#top" class="mr-md-5 mt-2 mt-md-0">#Home</a>
-                            <a href="#about" class="mr-md-5 mt-2 mt-md-0">#About Us</a>
-                            <a href="#careerpath" class="mr-md-5 mt-2 mt-md-0">#Career Path</a>
-                            <a href="#recruit" class="mr-md-5 mt-2 mt-md-0">#Recruitment</a>
-                            <a href="#people" class="mr-md-5 mt-2 mt-md-0">#People</a>
+                        <div class="col-12 py-5 copyright text-white">
+                            <em>Copyright © 2018 HRNAVI JOINT STOCK COMPANY All rights reserved.</em>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bg-dark text-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 py-5 copyright">
-                        <em>Copyright © 2018 HRNAVI JOINT STOCK COMPANY All rights reserved.</em>
                     </div>
                 </div>
             </div>
@@ -944,7 +954,7 @@
     <!-- Modal apply -->
     
     <!-- Modal -->
-    <div class="modal fade" id="applyForm" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal animated slideInRight" id="applyForm" tabindex="-1" role="dialog" aria-labelledby="applyForm" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1127,10 +1137,10 @@
         
     <!-- jquery / vendor js -->
     <script src="../../assets/js/vendor/jquery-3.2.1.min.js"></script>
-    <script src="../../assets/js/vendor/jquery.scrollTo.js"></script>
+    <!-- <script src="../../assets/js/vendor/jquery.scrollTo.js"></script> -->
     <script src="../../assets/js/vendor/bootstrap4/popper.min.js"></script>
     <script src="../../assets/js/vendor/bootstrap4/bootstrap.min.js"></script>
-    <script src="../../assets/js/vendor/jquery.scrollTo.js"></script>
+    <!-- <script src="../../assets/js/vendor/jquery.scrollTo.js"></script> -->
     <!-- <script src="../../assets/js/vendor/wow.js"></script> -->
     <script>
         // new WOW().init();
