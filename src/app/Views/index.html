@@ -1177,7 +1177,7 @@
 
     <script>
         
-        $("#draggable").draggable();
+        $("#draggable").draggable({ containment: 'window' });
         $(document).ready(function(){
             $('.brief_pp').each(function(){
                 $(this).click(function(){
