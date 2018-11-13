@@ -60,7 +60,7 @@
 
     <div class="container">
             <div class="row">
-                <a href="" class="intro-banner-vdo-play-btn pinkBg" data-target="#applyForm" data-toggle="modal">
+                <a href="" id="draggable" class="intro-banner-vdo-play-btn pinkBg" data-target="#applyForm" data-toggle="modal">
                     <span class="play-btn-text text-uppercase">Join Us</span>
                     <span class="ripple pinkBg"></span>
                     <span class="ripple pinkBg"></span>
@@ -1159,6 +1159,7 @@
         
     <!-- jquery / vendor js -->
     <script src="../../assets/js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <!-- <script src="../../assets/js/vendor/jquery.scrollTo.js"></script> -->
     <script src="../../assets/js/vendor/bootstrap4/popper.min.js"></script>
     <script src="../../assets/js/vendor/bootstrap4/bootstrap.min.js"></script>
@@ -1186,6 +1187,7 @@
                     }) 
                 })
             })
+            $( "#draggable" ).draggable();
         })
     </script>
 </body>
