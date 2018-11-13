@@ -13,7 +13,7 @@
         <!-- animation -->
         <link rel="stylesheet" href="../../assets/css/vendor/animate.css">
         <!-- Main style -->
-        <link rel="stylesheet" href="../../assets/css/main.css?20181113">
+        <link rel="stylesheet" href="../../assets/css/main.css?2018111301">
 </head>
 <body>
         <div class="container">
@@ -313,8 +313,8 @@
                                 <a target="_blank" href="https://www.linkedin.com/company/hrnavi-by-iglocal-resource"><i class="fab fa-linkedin fa-2x"></i></a>
                             </p>
                         </div>
-                        <div class="col-md-2 pt-5 pt-md-0 order-md-3">
-                            <h2 class="story-head mt-2"><strong class="text-uppercase">Liêt kết</strong></h2>
+                        <div class="col-md-2 pt-5 pt-md-0 order-md-4">
+                            <h2 class="story-head mt-2"><strong class="text-uppercase">Career</strong></h2>
                             <div class="mt-5 pt-4">
                                 <ul class="list-unstyled list-circle">
                                     <li><p><a href="index.html" class="mr-md-5 mt-2 mt-md-0 text-white">Home</a></p></li>
@@ -325,7 +325,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6 order-1 order-md-4 pt-5 pt-md-0 service">
+                        <div class="col-md-6 order-1 order-md-3 pt-5 pt-md-0 service">
                             <h2 class="story-head mt-2"><strong class="text-uppercase">Dịch vụ</strong></h2>
                             <div class="row mt-5 pt-4">
                                 <div class="col-md-6 mb-4">
@@ -368,9 +368,9 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">Ứng tuyển</h4>
+                        <h3 class="modal-title"><strong>Ứng tuyển</strong></h3>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
+                            <i class="la la-close la-2x"></i>
                         </button>
                     </div>
                     <div class="modal-body">
@@ -413,12 +413,34 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Send</button>
+                        <button type="button" class="btn btn-primary"  data-dismiss="modal" data-target="#successApply" data-toggle="modal">Gửi</button>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Modal apply -->
+        
+        <!-- Modal -->
+        <div class="modal animated slideInRight" id="successApply" tabindex="-1" role="dialog" aria-labelledby="applyForm" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- <h4 class="modal-title">Ứng tuyển</h4> -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <i class="la la-close la-2x"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cảm ơn bạn đã ứng tuyển tại HRnavi, chúng tôi sẽ liên hệ bạn trong thời gian sớm nhất có thể!</p>
+                            <p>HRnavi Team</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary"  data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- End Modal success apply -->
 
 
     <script src="../../assets/js/vendor/jquery-3.2.1.min.js"></script>
